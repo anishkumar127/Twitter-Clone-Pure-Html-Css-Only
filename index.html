@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter</title>
+     <link rel = "icon" href = "favicon.ico" type = "image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css"/>;
+</head>
+<body>
+
+     <!-- sidebar start  -->
+     <div class="sidebar">
+
+        <i class="fab fa-twitter"></i>
+        <div class="sidebarOption active">
+            <span class="material-icons">
+                home
+                </span>
+                <h2>Home</h2>
+        </div>
+      
+        <div class="sidebarOption">
+            <span class="material-icons">
+                search
+                </span>
+                <h2>Explore</h2>
+        </div>
+
+        <div class="sidebarOption">
+            <span class="material-icons">
+                notifications_none
+                </span>
+                <h2>Notifications</h2>
+        </div>
+
+        <div class="sidebarOption">
+            <span class="material-icons">
+                mail_outline
+                </span>
+                <h2>Message</h2>
+        </div>
+
+        <div class="sidebarOption">
+            <span class="material-icons">
+                bookmark_border
+                </span>
+                <h2>Bookmarks</h2>
+        </div>
+        <div class="sidebarOption">
+            <span class="material-icons">
+                list_alt
+                </span>
+                <h2>Lists</h2>
+        </div>
+        <div class="sidebarOption">
+            <span class="material-icons">
+                perm_identity
+                </span>
+                <h2>Profile</h2>
+        </div>
+        <div class="sidebarOption">
+            <span class="material-icons">
+                more_horiz
+                </span>
+                <h2>More</h2>
+        </div>
+        <button class="sidebar__tweet">Tweet</button>
+     </div>
+     <!-- sidebar end -->
+
+     <!-- feed start  -->
+     <div class="feed">
+        <div class="feed__header">
+        <h2>Home</h2>
+    </div> 
+
+
+     <!-- tweet box start  -->
+
+     <div class="tweetBox">
+        <form>
+            <div class="tweetbox__input">
+                <img src="avtar.png" alt="avtar"/>
+                <input type="text" placeholder="What's happening?"/>
+            </div>
+            <div class="bottom">
+                <ul class="icons">
+                    <li><i class="uil uil-capture"></i></li>
+                    <li><i class="far fa-file-image"></i></li>
+                    <li><i class="fas fa-map-marker-alt"></i></li>
+                    <li><i class="far fa-grin"></i></li>
+                    <li><i class="far fa-user"></i></li>
+                  </ul>
+                  <button class="tweetBox__tweetButton">Tweet</button>
+                  </div>
+        </form>
+   </div>
+      <!-- post start  -->
+       <div class="post">
+        <div class="post__avatar">
+            <img src="avtar.png" alt="avtar"/>
+        </div>
+        <div class="post__body">
+            <div class="post__header">
+                <div class="post__headerText">
+                    <h3>Anish Kumar<span class="post__headerSpecial">
+                        <span class="material-icons post__badge">verified</span>@anishbishnoixD
+                    </span></h3>
+                </div>
+                <div class="post__headerDescription">
+                    <p>Experience is the name everyone gives to their mistakes.</p>
+                </div>
+            </div>
+            <img src="anish.jpeg" alt="car 3"/>
+            <div class="post__footer">
+                <span class="material-icons">reply</span>
+                <span class="material-icons">repeat</span>
+                <span class="material-icons">favorite</span>
+                <span class="material-icons">publish</span>
+            </div>
+        </div>
+    </div>
+      <!-- post end  -->
+    <!-- Post Start  -->
+    <div class="post">
+        <div class="post__avatar">
+            <img src="elonavtar.jpeg" alt="avtar"/>
+        </div>
+        <div class="post__body">
+            <div class="post__header">
+                <div class="post__headerText">
+                    <h3>Elon Musk<span class="post__headerSpecial">
+                        <span class="material-icons post__badge">verified</span>@elonmusk
+                    </span></h3>
+                </div>
+                <div class="post__headerDescription">
+                    <p>When something is important enough, you do it even if the odds are not in your favor.</p>
+                </div>
+            </div>
+            <img src="car (5).jpg" alt="car 3"/>
+            <div class="post__footer">
+                <span class="material-icons">reply</span>
+                <span class="material-icons">repeat</span>
+                <span class="material-icons">favorite</span>
+                <span class="material-icons">publish</span>
+            </div>
+        </div>
+    </div>
+    <!-- Post End  -->
+    <!-- Post Start  -->
+    <div class="post">
+        <div class="post__avatar">
+            <img src="kalamavtar.jpg" alt="avtar"/>
+        </div>
+        <div class="post__body">
+            <div class="post__header">
+                <div class="post__headerText">
+                    <h3>A.P.J. Abdul Kalam<span class="post__headerSpecial">
+                        <span class="material-icons post__badge">verified</span>@APJAbdulKalam
+                    </span></h3>
+                </div>
+                <div class="post__headerDescription">
+                    <p>If you want to shine like a sun, first burn like a sun.</p>
+                </div>
+            </div>
+            <img src="kalamsir.jpg" alt="car 3"/>
+            <div class="post__footer">
+                <span class="material-icons">reply</span>
+                <span class="material-icons">repeat</span>
+                <span class="material-icons">favorite</span>
+                <span class="material-icons">publish</span>
+            </div>
+        </div>
+    </div>
+    <!-- Post End  -->
+    <!-- Post Start  -->
+    <div class="post">
+        <div class="post__avatar">
+            <img src="ratantataavtar.jpg" alt="avtar"/>
+        </div>
+        <div class="post__body">
+            <div class="post__header">
+                <div class="post__headerText">
+                    <h3>Ratan N. Tata<span class="post__headerSpecial">
+                        <span class="material-icons post__badge">verified</span>@RNTata2000
+                    </span></h3>
+                </div>
+                <div class="post__headerDescription">
+                    <p>Take the stones people throw at you, and use them to build a monument.</p>
+                </div>
+            </div>
+            <img src="ratantata.jpg" alt="car 3"/>
+            <div class="post__footer">
+                <span class="material-icons">reply</span>
+                <span class="material-icons">repeat</span>
+                <span class="material-icons">favorite</span>
+                <span class="material-icons">publish</span>
+            </div>
+        </div>
+    </div>
+    <!-- Post End  -->
+    <!-- Post Start  -->
+    <div class="post">
+        <div class="post__avatar">
+            <img src="mahadev.jpg" alt="avtar"/>
+        </div>
+        <div class="post__body">
+            <div class="post__header">
+                <div class="post__headerText">
+                    <h3>Isha Foundation<span class="post__headerSpecial">
+                        <span class="material-icons post__badge">verified</span>@ishafoundation
+                    </span></h3>
+                </div>
+                <div class="post__headerDescription">
+                    <p>The fear is simply because you are not living with life, you are living in your mind.</p>
+                </div>
+            </div>
+            <img src="shiva.jpg" alt="car 3"/>
+            <div class="post__footer">
+                <span class="material-icons">reply</span>
+                <span class="material-icons">repeat</span>
+                <span class="material-icons">favorite</span>
+                <span class="material-icons">publish</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Post End  -->
+
+     <!-- tweet box end  -->
+</div>
+
+     <!-- feed end  -->
+     <!-- widgets start  -->
+     <div class="widgets">
+        <div class="widgets__input">
+        <span class="material-icons widgets__searchIcon">search</span>
+        <input type="text" placeholder="Search Twitter"/>
+        </div>
+        <div class="widgets__widgetContainer">
+            <h2>What's happening?</h2>
+            <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Sunsets don&#39;t get much better than this one over 
+                <a href="https://twitter.com/GrandTetonNPS?ref_src=twsrc%5Etfw">@GrandTetonNPS</a>. <a href="https://twitter.com/hashtag/nature?src=hash&amp;ref_src=twsrc%5Etfw">#nature</a>
+                 <a href="https://twitter.com/hashtag/sunset?src=hash&amp;ref_src=twsrc%5Etfw">#sunset</a>
+                 <a href="http://t.co/YuKy2rcjyU">pic.twitter.com/YuKy2rcjyU</a></p>&mdash; US Department of the Interior (@Interior) 
+                <a href="https://twitter.com/Interior/status/463440424141459456?ref_src=twsrc%5Etfw">May 5, 2014</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" 
+                charset="utf-8"></script>
+        </div>
+ <!-- who to follow start  -->
+
+ <div class="who-to-follow">
+    <div class="who-to-follow__block">
+      <div class="who-to-follow__heading">
+        Who to follow
+      </div>
+    </div>
+    <div class="who-to-follow__block">
+      <img
+        class="who-to-follow__author-logo"
+        src="samantha.png"
+      />
+      <div class="who-to-follow__content">
+        <div>
+          <div class="who-to-follow__author-name">
+            Samantha Ruth Prabhu
+          </div>
+          <div class="who-to-follow__author-slug">
+            @Samanthaprabhu2
+          </div>
+        </div>
+        <div class="who-to-follow__button">
+          Follow
+        </div>
+      </div>
+    </div>
+    <div class="who-to-follow__block">
+      <img
+        class="who-to-follow__author-logo"
+        src="rashmika.png"
+      />
+      <div class="who-to-follow__content">
+        <div>
+          <div class="who-to-follow__author-name">
+            Rashmika Mandanna
+          </div>
+          <div class="who-to-follow__author-slug">
+            @iamRashmika
+          </div>
+        </div>
+        <div class="who-to-follow__button">
+          Follow
+        </div>
+      </div>
+    </div>
+
+    <div class="who-to-follow__block">
+      <img
+        class="who-to-follow__author-logo"
+        src="akshay.jpg"
+      />
+      <div class="who-to-follow__content">
+        <div>
+          <div class="who-to-follow__author-name">
+            Akshay Kumar
+          </div>
+          <div class="who-to-follow__author-slug">
+            @akshaykumar
+          </div>
+        </div>
+        <div class="who-to-follow__button">
+          Follow
+        </div>
+
+       
+      </div>
+      
+    </div>
+    <a class="showmore" href="#">Show more</a>
+  </div>
+ <!-- who to follow end  -->
+
+        <!-- terms and condition start -->
+        <div class="termsContianer">
+        <div class="terms">
+            <a href="#">Terms of Service</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Cookie Policy</a>
+           
+        </div>
+        <div class=" terms1">
+            <a href="#">Ads info</a>
+            <a href="#">More <span class="material-icons">
+                more_horiz
+                </span></a>
+        <a href="#">© 2021 Twitter, Inc.</a>
+        </div>
+    </div>
+
+         <!-- terms and condition end  -->
+    </div>
+ <!-- widgets end  -->
+
+</body>
+</html>
