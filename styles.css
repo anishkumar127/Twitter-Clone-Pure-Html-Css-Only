@@ -449,11 +449,18 @@ body {
   .widgets,
   .sidebar {
     display: none;
-    width: 100%;
+    /* width: 100%; */
+    /* height: auto; */
+  }
+  body {
+    height: 200vh;
   }
 }
 @media (min-width: 415px) and (max-width: 600px) {
   .widgets {
     display: none;
+  }
+  body {
+    height: 200vh;
   }
 }
