@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Segoe UI;
+  font-family: Helvetica, sans-serif;
 }
 body {
   --twitter-color: #50b7f5;
